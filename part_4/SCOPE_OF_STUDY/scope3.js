@@ -52,8 +52,8 @@ const objw = {
 //console.log(greetinglest)
 
 // default argument
-function greet(names = "", age =30, pet ="cat"){
-    return `hello ${names} you seen to be ${age-10}, what a looks lovely ${pet}`
+function greet(names = "himma", age =30, pet ="cat"){
+    return `hello ${names} you seen to be ${age-10}, what a looks lovely ${pet}` 
 }
 
 console.log(greet())

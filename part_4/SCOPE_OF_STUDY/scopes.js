@@ -1,6 +1,6 @@
 // SCOPE
 
-// by default u are always in the rrot scope
+// by default u are always in the root scope
 var fun =5;
 
 function funFunction(){
@@ -20,9 +20,10 @@ function funnestFunction(){
     console.log(3,fun);
 }
 
-console.log("window", fun);
+console.log("window : ", fun);
 funFunction()
 funnerFunction()
 funnestFunction()
 
 console.log(fun)
+

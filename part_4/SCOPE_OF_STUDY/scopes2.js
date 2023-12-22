@@ -7,11 +7,11 @@ function isUserValid(bool){
 }
 
 // tenary operator
-var answer = isUserValid(false) ?  "you may enter" : "ACCESS DENIED"// or true
+var answer = isUserValid(true) ?  "you may enter" : "ACCESS DENIED"// or true
 console.log(answer)
 
 var automatedAnswer =
-    "your account # is not available" + (isUserValid(false) ? "1234": "not available") // or fasle
+    "your account # is not available" + (isUserValid(true) ? "1234": "not available") // or fasle
 
 console.log(automatedAnswer)
 
@@ -24,6 +24,7 @@ function condition(){
     }
 }
 
+// swutch
 var answer2 = condition();
 
 // switch statement
@@ -48,4 +49,4 @@ function moveCommand(direction){
     return whatHappens;
 }
 
-console.log(moveCommand("default"))
+console.log(moveCommand("left"))
