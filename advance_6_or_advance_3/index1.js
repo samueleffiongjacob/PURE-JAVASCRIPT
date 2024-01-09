@@ -8,7 +8,7 @@ const detailedBasket = {
     grapes: 15
 }
 
-// for loop
+// for loop recall in loop
 for(let i =0; i<basket.length; i++){
     console.log(basket[i])
 }// i++ stands for increment 
